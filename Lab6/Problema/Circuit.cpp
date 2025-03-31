@@ -92,5 +92,8 @@ void Circuit::ShowWhoDidNotFinish()
 		if (cars[i] == nullptr)
 			k++;	
 	}
-	printf("%d masini nu au terminat cursa", k); 
+	if (!k)
+		printf("Toate masinile au terminat cursa.\n");
+	else
+		printf("%d masini nu au terminat cursa", k); 
 }

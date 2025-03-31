@@ -3,7 +3,7 @@
 
 Seat::Seat()
 {
-	fuelCap = 55;
+	fuelCap = 40;
 	fuelConsm = 10;
 	avgSpeed[0] = 80;
 	avgSpeed[1] = 100;

@@ -3,7 +3,7 @@
 
 Fiat::Fiat()
 {
-	fuelCap = 55;
+	fuelCap = 30;
 	fuelConsm = 10;
 	avgSpeed[0] = 60;
 	avgSpeed[1] = 65;

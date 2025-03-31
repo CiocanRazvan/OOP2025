@@ -2,7 +2,7 @@
 
 RangeRover::RangeRover()
 {
-	fuelCap = 55;
+	fuelCap = 70;
 	fuelConsm = 10;
 	avgSpeed[0] = 110;
 	avgSpeed[1] = 140;

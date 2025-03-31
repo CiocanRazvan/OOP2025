@@ -5,10 +5,6 @@
 #include "Car.h"
 
 class RangeRover : public Car {
-private:
-	float fuelCapacity;
-	float fuelConsumption;
-	float avgSpeed[3];
 public:
 	RangeRover();
 	float GetSpeed(Weather condition)const;
